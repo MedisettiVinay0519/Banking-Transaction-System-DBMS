@@ -1,4 +1,10 @@
 🏦 Banking Transaction Management System
+
+
+
+
+
+
 📌 Project Overview
 
 This project is a DBMS-based Core Banking System designed and implemented from ER modeling to ACID-compliant transaction processing using MySQL and Python.
@@ -6,6 +12,8 @@ This project is a DBMS-based Core Banking System designed and implemented from E
 It simulates how real-world banking backend systems work by handling customer onboarding, account management, secure monetary transactions, audit logging, and reporting.
 
 ⚠️ This system represents an internal bank/admin backend, not a customer-facing application.
+
+
 
 
 🧠 System Design Philosophy
@@ -24,13 +32,17 @@ End-users (customers) typically interact with mobile/web apps, which internally 
 This separation reflects real banking architecture.
 
 
+
 🗂️ Entity Relationship (ER) Diagram
 
 The system is designed based on a normalized ER model with strong referential integrity and role-based relationships.
 
 📊 ER Diagram
 
-![ER Diagram](er_diagram.png)
+![ER Diagram](Banking_Schema.png)
+
+
+
 
 📁 Place the image file in the root of the repository:
 
