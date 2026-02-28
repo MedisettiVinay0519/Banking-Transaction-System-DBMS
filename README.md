@@ -59,3 +59,64 @@ Composite attributes (Name, Address)
 Derived attribute (Age from DOB)
 
 ACID-oriented transaction design
+
+
+
+🧱 Database Schema
+
+>customers
+
+>accounts
+
+>transactions
+
+>transaction_audit
+
+Key DBMS Features
+
+>Primary & Foreign Keys
+
+>CHECK constraints (e.g., balance ≥ 0)
+
+>Role-based transaction modeling
+
+>Soft deletes using account status
+
+>Weak entity implementation
+
+
+
+🔄 Core Functionalities
+
+👨‍💼 Admin / Bank Operations
+
+>Create Customer
+
+>Create Account
+
+>Block / Unblock Account
+
+>Close Account (Soft Close)
+
+💳 Account Operations
+
+>Deposit Money
+
+>Withdraw Money
+
+>Transfer Funds
+
+>Check Balance
+
+📊 Reporting
+
+>Transaction History
+
+>Monthly Statement (Credits, Debits, Opening & Closing Balance)
+
+
+| Account Status | Allowed Operations          |
+| -------------- | --------------------------- |
+| ACTIVE         | Deposit, Withdraw, Transfer |
+| BLOCKED        | Balance Check, History      |
+| CLOSED         | Balance Check, History      |
