@@ -134,10 +134,10 @@ banking-system/
 ```
 🎯 Key Learnings & Concepts
 
--ER to relational schema conversion
--Database normalization (3NF)
--Weak entities and identifying relationships
--ACID-compliant transaction processing
--Backend system design
--Real-world banking constraints
+- ER to relational schema conversion
+- Database normalization (3NF)
+- Weak entities and identifying relationships
+- ACID-compliant transaction processing
+- Backend system design
+- Real-world banking constraints
 
